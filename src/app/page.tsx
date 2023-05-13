@@ -21,6 +21,15 @@ const HomePage = () => {
             <Commando key={index} {...command} />
           ))}
         </ul>
+
+        <p className='my-5'>
+          <Link
+            href='https://github.com/estarlincito/Bash001/tree/80f816f0f29c49eb0028b2aa1a054c8e259c1783/src/assets/script'
+            target='_blank'
+          >
+            Check my bash Script
+          </Link>
+        </p>
       </div>
     </div>
   );
