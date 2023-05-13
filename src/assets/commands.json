@@ -1,0 +1,122 @@
+[
+  {
+    "command": "echo Hello Word",
+    "description": "Prints the text"
+  },
+  {
+    "command": "cat file.text",
+    "description": "Prints the contents of a file to the standard output."
+  },
+  {
+    "command": "touch script.sh",
+    "description": "Create an empty file or to change the timestamp of an existing file."
+  },
+  {
+    "command": "mkdir folder",
+    "description": "Creating directories."
+  },
+  {
+    "command": "pwd",
+    "description": "Print Working Directory"
+  },
+  {
+    "command": "cd",
+    "description": "Change directory"
+  },
+  {
+    "command": "ls",
+    "description": "Listing Contents"
+  },
+  {
+    "command": "ls -l",
+    "description": "Check Permissions"
+  },
+  {
+    "command": "rm file.text",
+    "description": "Remove file"
+  },
+  {
+    "command": "echo Hello world > hello.txt",
+    "description": "To write to a file"
+  },
+  {
+    "command": "echo Hello world >> hello.txt \n echo Hello friend >> hello.txt",
+    "description": "To append to a file"
+  },
+  {
+    "command": "#!/bin/bash",
+    "description": "Shebang"
+  },
+  {
+    "command": "echo $SHELL",
+    "description": "Check current SHELL"
+  },
+  {
+    "command": "script.sh",
+    "description": "Bash script"
+  },
+  {
+    "command": "bash script.sh",
+    "description": "Run bash script"
+  },
+  {
+    "command": "./script.sh",
+    "description": "Run programs"
+  },
+  {
+    "command": "chmod u+x script.sh",
+    "description": "Permission to execute"
+  },
+  {
+    "command": "USER=Estarlincito",
+    "description": "Environment variable"
+  },
+  {
+    "command": "echo $USER",
+    "description": "Print variable"
+  },
+  {
+    "command": "echo 'Estarlincito' \n read NAME",
+    "description": "It can also be used to read user input from the terminal, as well as to read from files and pipes."
+  },
+  {
+    "command": "echo Hello $1 $2",
+    "description": "Positional arguments"
+  },
+  {
+    "command": "cat << EOF",
+    "description": "To send a multiline string of text to a program or command('EOF' to end)"
+  },
+  {
+    "command": "[ hello = hello ]",
+    "description": "Test operators, if condition is tru return 0. (Check with echo $?)"
+  },
+  {
+    "command": "if (condition); then \n code \n\n elif (condition); then \n code \n\n else \n echo code \n fi",
+    "description": "If /Elif /Else"
+  },
+  {
+    "command": "case in \n help) code ;; \n user) code ;; \n *) code ;;",
+    "description": "Case statements"
+  },
+  {
+    "command": "LIST=('apple' 'orange' 'banana' 'line' 'pear')",
+    "description": "To create an array"
+  },
+  {
+    "command": "echo ${LIST[@]}",
+    "description": "To selec all array items"
+  },
+  {
+    "command": "echo ${LIST[0]}",
+    "description": "To selec array item by index"
+  },
+  {
+    "command": "for item in ${LIST[@]} \n do \n echo $item \n done",
+    "description": "For loop"
+  },
+  {
+    "command": "showtime(){ \n local user=$(whoami)\n echo Hello ${user} \n} \nshowtime",
+    "description": "functions"
+  }
+]
