@@ -24,7 +24,7 @@ const HomePage = () => {
 
         <p className='my-5'>
           <Link
-            href='https://github.com/estarlincito/Bash001/tree/80f816f0f29c49eb0028b2aa1a054c8e259c1783/src/assets/script'
+            href='https://github.com/estarlincito/Bash001/tree/main/src/assets/script'
             target='_blank'
           >
             Check my bash Script
