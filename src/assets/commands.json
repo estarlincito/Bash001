@@ -118,5 +118,21 @@
   {
     "command": "showtime(){ \n local user=$(whoami)\n echo Hello ${user} \n} \nshowtime",
     "description": "functions"
+  },
+  {
+    "command": "mv",
+    "description": "The mv command is a Linux command used to move or rename files and directories."
+  },
+  {
+    "command": "mv script.sh script",
+    "description": "To run script without '.sh' ('script' to run)"
+  },
+  {
+    "command": "sudo",
+    "description": "Sudo (superuser do) is a command that gives a user with administrative privileges the ability to run a command as another user, such as the superuser."
+  },
+  {
+    "command": "sudo mv script /usr/local/bin",
+    "description": "To make script globaly"
   }
 ]
