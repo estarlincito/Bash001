@@ -16,7 +16,7 @@ const Commando: FC<CommandoProps> = ({ command, description }) => {
       )}
     >
       <h3
-        className='text-red-600 dark:text-red-200 mb-5'
+        className='text-red-800 dark:text-red-200 mb-5'
         dangerouslySetInnerHTML={{
           __html: command.replaceAll('\n', '<br />'),
         }}
