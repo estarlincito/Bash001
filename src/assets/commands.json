@@ -120,6 +120,10 @@
     "description": "functions"
   },
   {
+    "command": "cp",
+    "description": "The cp command is a Linux command used to copy files and directories from one location to another."
+  },
+  {
     "command": "mv",
     "description": "The mv command is a Linux command used to move or rename files and directories."
   },
@@ -132,7 +136,7 @@
     "description": "Sudo (superuser do) is a command that gives a user with administrative privileges the ability to run a command as another user, such as the superuser."
   },
   {
-    "command": "sudo mv script /usr/local/bin",
+    "command": "sudo cp script /usr/local/bin",
     "description": "To make script globaly"
   }
 ]

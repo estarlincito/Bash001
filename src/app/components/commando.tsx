@@ -10,6 +10,7 @@ const Commando: FC<CommandoProps> = ({ command, description }) => {
   return (
     <div
       className={clsx(
+        'max-w-2xl',
         'flex flex-col',
         'bg-teal-400 dark:bg-teal-600',
         'rounded-lg p-5'

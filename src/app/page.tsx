@@ -26,6 +26,7 @@ const HomePage = () => {
           <Link
             href='https://github.com/estarlincito/Bash001/tree/main/src/assets/script'
             target='_blank'
+            className='font-bold text-blue-500'
           >
             Check my bash Script
           </Link>
