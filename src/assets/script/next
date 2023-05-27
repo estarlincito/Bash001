@@ -1,0 +1,5 @@
+#!/bin/bash
+echo app-name?
+read NAME
+
+pnpm create next-app  $NAME
