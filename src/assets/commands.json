@@ -1,5 +1,22 @@
 [
   {
+    "command": "cat /etc/shells",
+    "description": "Show shells list"
+  },
+  {
+    "command": "chsh -s /bin/bash",
+    "description": "This will change the default shell to Bash"
+  },
+  {
+    "command": "touch .hushlogin",
+    "description": "Remove the “Last login”"
+  },
+
+  {
+    "command": "echo $SHELL",
+    "description": "Check current SHELL"
+  },
+  {
     "command": "echo Hello Word",
     "description": "Prints the text"
   },
@@ -46,10 +63,6 @@
   {
     "command": "#!/bin/bash",
     "description": "Shebang"
-  },
-  {
-    "command": "echo $SHELL",
-    "description": "Check current SHELL"
   },
   {
     "command": "script.sh",
